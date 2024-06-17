@@ -15,6 +15,14 @@
 		08BC7C5E2C1A9BAF00F6F507 /* Store18Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BC7C5D2C1A9BAF00F6F507 /* Store18Tests.swift */; };
 		08BC7C682C1A9BAF00F6F507 /* Store18UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BC7C672C1A9BAF00F6F507 /* Store18UITests.swift */; };
 		08BC7C6A2C1A9BAF00F6F507 /* Store18UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BC7C692C1A9BAF00F6F507 /* Store18UITestsLaunchTests.swift */; };
+		08BC7C792C1F40A100F6F507 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BC7C782C1F40A100F6F507 /* StoreView.swift */; };
+		08BC7C7B2C1FCAFF00F6F507 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BC7C7A2C1FCAFF00F6F507 /* Product.swift */; };
+		08BC7C7F2C1FCB3B00F6F507 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BC7C7E2C1FCB3B00F6F507 /* Header.swift */; };
+		08BC7C812C1FCB5200F6F507 /* ChipGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BC7C802C1FCB5200F6F507 /* ChipGallery.swift */; };
+		08BC7C832C1FCB6900F6F507 /* Chip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BC7C822C1FCB6900F6F507 /* Chip.swift */; };
+		08BC7C852C1FCB7E00F6F507 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BC7C842C1FCB7E00F6F507 /* Gallery.swift */; };
+		08BC7C872C1FCB9800F6F507 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BC7C862C1FCB9800F6F507 /* Card.swift */; };
+		08BC7C892C1FCBAF00F6F507 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BC7C882C1FCBAF00F6F507 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +54,14 @@
 		08BC7C632C1A9BAF00F6F507 /* Store18UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Store18UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08BC7C672C1A9BAF00F6F507 /* Store18UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store18UITests.swift; sourceTree = "<group>"; };
 		08BC7C692C1A9BAF00F6F507 /* Store18UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store18UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		08BC7C782C1F40A100F6F507 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		08BC7C7A2C1FCAFF00F6F507 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		08BC7C7E2C1FCB3B00F6F507 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		08BC7C802C1FCB5200F6F507 /* ChipGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipGallery.swift; sourceTree = "<group>"; };
+		08BC7C822C1FCB6900F6F507 /* Chip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chip.swift; sourceTree = "<group>"; };
+		08BC7C842C1FCB7E00F6F507 /* Gallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
+		08BC7C862C1FCB9800F6F507 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		08BC7C882C1FCBAF00F6F507 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +113,16 @@
 			isa = PBXGroup;
 			children = (
 				08BC7C4A2C1A9BAE00F6F507 /* Store18App.swift */,
-				08BC7C4C2C1A9BAE00F6F507 /* ContentView.swift */,
-				08BC7C4E2C1A9BAE00F6F507 /* Item.swift */,
+				08BC7C782C1F40A100F6F507 /* StoreView.swift */,
+				08BC7C7E2C1FCB3B00F6F507 /* Header.swift */,
+				08BC7C802C1FCB5200F6F507 /* ChipGallery.swift */,
+				08BC7C822C1FCB6900F6F507 /* Chip.swift */,
+				08BC7C842C1FCB7E00F6F507 /* Gallery.swift */,
+				08BC7C862C1FCB9800F6F507 /* Card.swift */,
+				08BC7C882C1FCBAF00F6F507 /* DetailView.swift */,
+				08BC7C7A2C1FCAFF00F6F507 /* Product.swift */,
 				08BC7C502C1A9BAF00F6F507 /* Assets.xcassets */,
+				08BC7C7C2C1FCB1200F6F507 /* Others */,
 				08BC7C522C1A9BAF00F6F507 /* Preview Content */,
 			);
 			path = Store18;
@@ -128,6 +151,15 @@
 				08BC7C692C1A9BAF00F6F507 /* Store18UITestsLaunchTests.swift */,
 			);
 			path = Store18UITests;
+			sourceTree = "<group>";
+		};
+		08BC7C7C2C1FCB1200F6F507 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				08BC7C4C2C1A9BAE00F6F507 /* ContentView.swift */,
+				08BC7C4E2C1A9BAE00F6F507 /* Item.swift */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +293,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				08BC7C4D2C1A9BAE00F6F507 /* ContentView.swift in Sources */,
+				08BC7C852C1FCB7E00F6F507 /* Gallery.swift in Sources */,
+				08BC7C832C1FCB6900F6F507 /* Chip.swift in Sources */,
+				08BC7C812C1FCB5200F6F507 /* ChipGallery.swift in Sources */,
 				08BC7C4F2C1A9BAE00F6F507 /* Item.swift in Sources */,
+				08BC7C892C1FCBAF00F6F507 /* DetailView.swift in Sources */,
+				08BC7C7B2C1FCAFF00F6F507 /* Product.swift in Sources */,
+				08BC7C792C1F40A100F6F507 /* StoreView.swift in Sources */,
+				08BC7C872C1FCB9800F6F507 /* Card.swift in Sources */,
+				08BC7C7F2C1FCB3B00F6F507 /* Header.swift in Sources */,
 				08BC7C4B2C1A9BAE00F6F507 /* Store18App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
